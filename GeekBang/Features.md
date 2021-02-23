@@ -49,8 +49,10 @@
 |涉案案件总数|numerical|int||
 |原告案件数量|numerical|int||
 |原告案件涉及总金额|numerical|int||
+|原告案件涉及金额统计特征|numerical|int|最大、最小、中位、方差...|
 |被告案件数量|numerical|int||
 |被告案件涉及总金额|numerical|int||
+|被告案件涉及金额统计特征|numerical|int|最大、最小、中位、方差...|
 
 ## 衍生特征
 
