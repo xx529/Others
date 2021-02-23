@@ -6,33 +6,40 @@
 
 ### 企业基本信息
 
-公司名称
-公司类型
-所属行业
-法定代表人
-注册资本
-实缴资本
-是否上市
-所属地区，省，市，区
-经营范围文本
+| Name | Feature Type | Data Type | Remarks |
+|--|--|--|--|
+公司名称(id)|Categorical|int|
+经营状态|Categorical|int|续存、注销、倒闭...|
+|所属行业|Categorical|int|餐饮、制造、广告...|
+|注册资本|numerical|float||
+|实缴资本|numerical|float||
+|是否上市|Categorical|int||
+|所属省|Categorical|int||
+|所属省等级|Categorical|int|超一线，一线，二线...|
+|所属市|Categorical|int||
+|所属市类型|Categorical|int|省会城市、市级、县级...|
 
 ### 企业经营
 
-成立日期
-人员规模
-参保人数
-对外投资数量
-融资次数，金额
+|Name|Feature Type|Data Type|Remarks|
+|--|--|--|--|
+|成立日期|numerical|timeserise||
+|人员规模|numerical|int||
+|参保人数|numerical|int||
+|对外投资数量|numerical|int|
+|融资次数|numerical|int||
+|融资总金额|numerical|float||
 
 ### 企业实力
 
-竞品信息数量
-
-注册商标数量
-专利数量
-资质证书数量
-作品著作权数量
-软件著作权数量
+|Name|Feature Type|Data Type|Remarks|
+|--|--|--|--|
+|竞品信息数量|numerical|int||
+|注册商标数量|numerical|int||
+|专利数量|numerical|int||
+|资质证书数量|numerical|int||
+|作品著作权数量|numerical|int||
+|软件著作权数量|numerical|int||
 
 ### 违规风险
 
@@ -42,8 +49,14 @@
 被告案件数量，涉及金额
 
 ## 衍生特征
+
 ### 时间维度特征
 
 ### 横向对比特征
 
 ### 纵向对比特征
+
+
+### 文本特征
+
+经营范围文本
