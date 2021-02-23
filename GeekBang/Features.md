@@ -69,7 +69,28 @@
 
 ## 衍生特征
 
-### 时间维度特征
+### 时间维度对比
+|Name|Feature Type|Data Type|Remarks|
+|--|--|--|--|
+|营业收入增长|numerical|float|近1年、近3年、历史平均|
+|净利润增长|numerical|float|近1年、近3年、历史平均|
+|总资产增长|numerical|float|近1年、近3年、历史平均|
+|净资产增长|numerical|float|近1年、近3年、历史平均|
+|净利率增长|numerical|float|近1年、近3年、历史平均|
+|毛利率增长|numerical|float|近1年、近3年、历史平均|
+|人员规模增长|numerical|float|近1年、近3年、历史平均|
+|参保人数增长|numerical|float|近1年、近3年、历史平均|
+|对外投资数量增长|numerical|float|近1年、近3年、历史平均|
+|融资次数增长|numerical|float|近1年、近3年、历史平均|
+|融资总金额增长|numerical|float|近1年、近3年、历史平均|
+|竞品信息数量增长|numerical|float||
+|注册商标数量增长|numerical|float||
+|专利数量增长|numerical|float||
+|资质证书数量增长|numerical|float||
+|作品著作权数量增长|numerical|float||
+|软件著作权数量增长|numerical|float||
+|新闻舆情数量增长|numerical|float||
+|涉案案件总数增长|numerical|float||
 
 ### 横向对比特征
 
