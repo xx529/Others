@@ -40,7 +40,7 @@
 |成立日期|Numerical|timeserise||
 |人员规模|Numerical|int||
 |参保人数|Numerical|int||
-|对外投资数量|Numerical|int|
+|对外投资数量|Numerical|float|
 |融资次数|Numerical|int||
 |融资总金额|Numerical|float||
 
@@ -62,11 +62,11 @@
 |新闻舆情数量|Numerical|int||
 |涉案案件总数|Numerical|int||
 |原告案件数量|Numerical|int||
-|原告案件涉及总金额|Numerical|int||
-|原告案件涉及金额统计特征|Numerical|int|平均、最大、最小、中位、方差...|
+|原告案件涉及总金额|Numerical|float||
+|原告案件涉及金额统计特征|Numerical|float|平均、最大、最小、中位、方差...|
 |被告案件数量|Numerical|int||
-|被告案件涉及总金额|Numerical|int||
-|被告案件涉及金额统计特征|Numerical|int|平均、最大、最小、中位、方差...|
+|被告案件涉及总金额|Numerical|float||
+|被告案件涉及金额统计特征|Numerical|float|平均、最大、最小、中位、方差...|
 
 ## 衍生特征
 
@@ -104,16 +104,16 @@
 |净资产与平均对比|Numerical|float|差值、分位数|
 |净利率与平均对比|Numerical|float|差值、分位数|
 |毛利率与平均对比|Numerical|float|差值、分位数|
-|人员规模与平均对比|Numerical|int|差值、分位数|
-|参保人数与平均对比|Numerical|int|差值、分位数|
-|对外投资数量与平均对比|Numerical|int|差值、分位数|
-|融资次数与平均对比|Numerical|int|差值、分位数|
+|人员规模与平均对比|Numerical|float|差值、分位数|
+|参保人数与平均对比|Numerical|float|差值、分位数|
+|对外投资数量与平均对比|Numerical|float|差值、分位数|
+|融资次数与平均对比|Numerical|float|差值、分位数|
 |融资总金额与平均对比|Numerical|float|差值、分位数|
-|涉案案件总数与平均对比|Numerical|int|差值、分位数|
-|原告案件数量与平均对比|Numerical|int|差值、分位数|
-|原告案件涉及总金额与平均对比|Numerical|int|差值、分位数|
-|被告案件数量与平均对比|Numerical|int|差值、分位数|
-|被告案件涉及总金额与平均对比|Numerical|int|差值、分位数|
+|涉案案件总数与平均对比|Numerical|float|差值、分位数|
+|原告案件数量与平均对比|Numerical|float|差值、分位数|
+|原告案件涉及总金额与平均对比|Numerical|float|差值、分位数|
+|被告案件数量与平均对比|Numerical|float|差值、分位数|
+|被告案件涉及总金额与平均对比|Numerical|float|差值、分位数|
 
 ### 纵向对比特征（同行业企业）
 同行业选主要的一个，特征字段与横向保持一致
@@ -128,14 +128,14 @@
 |毛利率与平均对比|Numerical|float|差值、分位数|
 |人员规模与平均对比|Numerical|int|差值、分位数|
 |参保人数与平均对比|Numerical|int|差值、分位数|
-|对外投资数量与平均对比|Numerical|int|差值、分位数|
-|融资次数与平均对比|Numerical|int|差值、分位数|
+|对外投资数量与平均对比|Numerical|float|差值、分位数|
+|融资次数与平均对比|Numerical|float|差值、分位数|
 |融资总金额与平均对比|Numerical|float|差值、分位数|
-|涉案案件总数与平均对比|Numerical|int|差值、分位数|
-|原告案件数量与平均对比|Numerical|int|差值、分位数|
-|原告案件涉及总金额与平均对比|Numerical|int|差值、分位数|
-|被告案件数量与平均对比|Numerical|int|差值、分位数|
-|被告案件涉及总金额与平均对比|Numerical|int|差值、分位数|
+|涉案案件总数与平均对比|Numerical|float|差值、分位数|
+|原告案件数量与平均对比|Numerical|float|差值、分位数|
+|原告案件涉及总金额与平均对比|Numerical|float|差值、分位数|
+|被告案件数量与平均对比|Numerical|float|差值、分位数|
+|被告案件涉及总金额与平均对比|Numerical|float|差值、分位数|
 
 ### 文本特征
 |Name|Feature Type|Data Type|Remarks|
