@@ -43,10 +43,14 @@
 
 ### 违规风险
 
-新闻舆情数量
-涉案案件总数
-原告案件数量，涉及金额
-被告案件数量，涉及金额
+|Name|Feature Type|Data Type|Remarks|
+|--|--|--|--|
+|新闻舆情数量|numerical|int||
+|涉案案件总数|numerical|int||
+|原告案件数量|numerical|int||
+|原告案件涉及总金额|numerical|int||
+|被告案件数量|numerical|int||
+|被告案件涉及总金额|numerical|int||
 
 ## 衍生特征
 
