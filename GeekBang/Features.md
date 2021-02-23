@@ -1,6 +1,7 @@
 # 特征字段构建作业
 
 任务假设：企业违约风险预测
+
 参考网站：https://www.qcc.com/cbase/c70a55cb048c8e4db7bca357a2c113e0
 
 ## 基本特征
@@ -92,7 +93,7 @@
 |新闻舆情数量增长|Numerical|float|近1年、近3年、历史平均|
 |涉案案件总数增长|Numerical|float|近1年、近3年、历史平均|
 
-### 横向对比特征（同规模）
+### 横向对比特征（同规模企业）
 规模假设：关于注册资本、人员数量综合指标
 
 |Name|Feature Type|Data Type|Remarks|
@@ -114,7 +115,7 @@
 |被告案件数量与平均对比|Numerical|int|差值、分位数|
 |被告案件涉及总金额与平均对比|Numerical|int|差值、分位数|
 
-### 纵向对比特征（同行业）
+### 纵向对比特征（同行业企业）
 同行业选主要的一个，特征字段与横向保持一致
 
 |Name|Feature Type|Data Type|Remarks|
@@ -139,29 +140,12 @@
 ### 文本特征
 |Name|Feature Type|Data Type|Remarks|
 |--|--|--|--|
-经营范围文本
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|积极新闻舆情案件数量|Numerical|int||
+|中性新闻舆情案件数量|Numerical|int||
+|消极新闻舆情案件数量|Numerical|int||
+|权威媒体发布新闻舆情案件数量|Numerical|int||
+|软文发布新闻舆情案件数量|Numerical|int||
+|新闻舆情案件权威媒体数量|Numerical|int||
+|权威媒体积极新闻舆情案件占比|Numerical|float||
+|权威媒体中性新闻舆情案件占比|Numerical|float||
+|权威媒体消极新闻舆情案件占比|Numerical|float||
